@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Fruit Counter</title>   
+    <link rel="stylesheet" type ="text/css" href="style.css"/>
+  </head> 
+  
+  <body onload="draw()" >
+    <form>
+      How many apples? <input id="apples" placeholder=" Max. 10"></input><br/><br/>
+        
+      How many oranges? <input id="oranges" placeholder=" Max. 10"></input><br/><br/>
+        
+      How many watermelons? <input id="watermelons" placeholder=" Max. 10"></input><br/><br/>
+        
+      <!--submission button-->
+      <button type="button" onclick="draw()">Count!</button>
+    </form>
+    
+    <canvas id="tutorial" width="300" height="300"></canvas>
+  </body>
+  
+  <!--placing script types AFTER canvas to prevent js from finishing running before the canvas starts-->
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src = "script.js"></script>
+</html>
+
